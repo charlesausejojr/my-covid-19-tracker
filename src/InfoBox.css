@@ -1,0 +1,13 @@
+.infoBox{
+    padding: 10px;
+    flex: 1;
+}
+.infoBox__Cases{
+    border-bottom: 8px solid #ffa36c !important;
+}
+.infoBox__Recoveries{
+    border-bottom: 8px solid #799351 !important;
+}
+.infoBox__Deaths{
+    border-bottom: 8px solid #a20a0a !important;
+}

@@ -1,0 +1,26 @@
+.sidebar{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.sidebar__messages{
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.sidebar__input{
+    margin-top: 20px;
+    margin-bottom: -18px;
+}
+.sidebar__input > form > input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    outline-style: none;
+    background-color: #f4f4f4;
+}
+.sidebar__input > form > button{
+    display: none;
+}

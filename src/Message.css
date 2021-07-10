@@ -1,0 +1,35 @@
+.message{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+.message > .message__info {
+    background-color: #f6eec9;
+    font-size: 0.9rem;
+    padding: 15px;
+    border-radius: 25px;
+    margin: 10px;
+    margin-right: auto;
+    position: relative;
+}
+.message > .message__info > .message__timestamp{
+    color: black;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    font-size: x-small;
+}
+.message__sender > .message__info{
+    margin-left: auto;
+    background-color: #a4b787;
+}
+.message__sender > p {
+    background-color: #a4b787;
+}
+.message__sender > .message__photo{
+    order: 1;
+    margin: 0 10px 0 0;
+}
+.message__photo{
+    order: 0;
+}
